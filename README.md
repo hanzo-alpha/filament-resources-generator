@@ -1,9 +1,9 @@
 # Generate Filament Model and Resource Dynamically
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/hanzoalpha/filament-resources-generator.svg?style=flat-square)](https://packagist.org/packages/hanzoalpha/filament-resources-generator)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/hanzoalpha/filament-resources-generator/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/hanzoalpha/filament-resources-generator/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/hanzoalpha/filament-resources-generator/fix-php-code-styling.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/hanzoalpha/filament-resources-generator/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/hanzoalpha/filament-resources-generator.svg?style=flat-square)](https://packagist.org/packages/hanzoalpha/filament-resources-generator)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/hanzo-alpha/filament-resources-generator.svg?style=flat-square)](https://packagist.org/packages/hanzo-alpha/filament-resources-generator)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/hanzo-alpha/filament-resources-generator/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/hanzo-alpha/filament-resources-generator/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/hanzo-alpha/filament-resources-generator/fix-php-code-styling.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/hanzo-alpha/filament-resources-generator/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/hanzo-alpha/filament-resources-generator.svg?style=flat-square)](https://packagist.org/packages/hanzo-alpha/filament-resources-generator)
 
 
 
