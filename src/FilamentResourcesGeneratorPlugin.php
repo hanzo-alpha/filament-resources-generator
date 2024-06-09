@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace HanzoAlpha\FilamentResourcesGenerator;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class FilamentResourcesGeneratorPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'filament-resources-generator';
     }
 
     public function register(Panel $panel): void

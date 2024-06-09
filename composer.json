@@ -1,29 +1,27 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "hanzo-alpha/filament-resources-generator",
+    "description": "Generate Filament Model and Resource Dynamically",
     "keywords": [
-        ":vendor_name",
+        "HanzoAlpha",
         "laravel",
-        ":package_slug"
+        "filament-resources-generator"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/hanzo-alpha/filament-resources-generator",
     "support": {
-        "issues": "https://github.com/:vendor_slug/:package_slug/issues",
-        "source": "https://github.com/:vendor_slug/:package_slug"
+        "issues": "https://github.com/hanzo-alpha/filament-resources-generator/issues",
+        "source": "https://github.com/hanzo-alpha/filament-resources-generator"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Hanzo Alpha",
+            "email": "hansen.makangiras@hotmail.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.1",
         "filament/filament": "^3.0",
-        "filament/forms": "^3.0",
-        "filament/tables": "^3.0",
         "spatie/laravel-package-tools": "^1.15.0"
     },
     "require-dev": {
@@ -40,14 +38,17 @@
         "spatie/laravel-ray": "^1.26"
     },
     "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "HanzoAlpha\\FilamentResourcesGenerator\\": "src/",
+            "HanzoAlpha\\FilamentResourcesGenerator\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "HanzoAlpha\\FilamentResourcesGenerator\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -60,6 +61,7 @@
     "config": {
         "sort-packages": true,
         "allow-plugins": {
+            "composer/package-versions-deprecated": true,
             "pestphp/pest-plugin": true,
             "phpstan/extension-installer": true
         }
@@ -67,10 +69,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "HanzoAlpha\\FilamentResourcesGenerator\\FilamentResourcesGeneratorServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "FilamentResourcesGenerator": "HanzoAlpha\\FilamentResourcesGenerator\\Facades\\FilamentResourcesGenerator"
             }
         }
     },
